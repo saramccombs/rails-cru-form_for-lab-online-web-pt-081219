@@ -1,0 +1,9 @@
+<h1>Add a New Genre</h1>
+<%= form_for (@genre) do |f| %>
+    <p>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+    </p>
+
+    <%= f.submit %>
+<% end %>
